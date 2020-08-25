@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videoque", "Videoque\Videoque.csproj", "{FC602459-CA3D-459F-BE12-B564169D596F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC602459-CA3D-459F-BE12-B564169D596F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC602459-CA3D-459F-BE12-B564169D596F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC602459-CA3D-459F-BE12-B564169D596F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC602459-CA3D-459F-BE12-B564169D596F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAA8A48D-421B-478E-B868-D14F3A390948}
+	EndGlobalSection
+EndGlobal
