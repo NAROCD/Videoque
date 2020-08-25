@@ -1,23 +1,21 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using Videoque.Dtos;
 
-namespace Videoque.Dtos
+public class CustomerDto
 {
-    public class CustomerDto
-    {
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        [Required]
-        [StringLength(255)]
-        public string Name { get; set; }
+    [Required]
+    [StringLength(255)]
+    public string Name { get; set; }
 
-        public bool IsSubscribedToNewsletter { get; set; }
+    public bool IsSubscribedToNewsletter { get; set; }
 
-        public byte MembershipTypeId { get; set; }
+    public byte MembershipTypeId { get; set; }
 
-        public MembershipTypeDto MembershipType { get; set; }
+    public MembershipTypeDto MembershipType { get; set; }
 
-        //        [Min18YearsIfAMember]
-        public DateTime? Birthdate { get; set; }
-    }
+    //        [Min18YearsIfAMember]
+    public DateTime? Birthdate { get; set; }
 }

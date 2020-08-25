@@ -27,7 +27,7 @@ namespace Videoque.Controllers.API
                     .ToList()
                     .Select(Mapper.Map<Customer, CustomerDto>);
 
-                return Ok(customerDtos);
+            return Ok(customerDtos);
             }
 
             // GET /api/customers/1

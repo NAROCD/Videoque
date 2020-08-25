@@ -41,7 +41,6 @@ namespace Videoque.Controllers
 
             return View("MovieForm", viewModel);
         }
-
         public ActionResult Edit(int id)
         {
             var movie = _context.Movies.SingleOrDefault(c => c.Id == id);

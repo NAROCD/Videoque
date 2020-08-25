@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using Videoque.Models;
 using Videoque.Dtos;
+using Videoque.Models;
 
 namespace Videoque.App_Start
 {
-    public class MappingProfile
+    public class MappingProfile : Profile
     {
         public MappingProfile()
         {

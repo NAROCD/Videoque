@@ -156,7 +156,8 @@ namespace Videoque.Controllers
                 {
                     UserName = model.Email,
                     Email = model.Email,
-                    OP = model.OP
+                    OP = model.OP,
+                    Phone = model.Phone
                 };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)

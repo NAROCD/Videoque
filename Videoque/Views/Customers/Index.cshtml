@@ -5,6 +5,7 @@
 }
 
 <h2>Customers</h2>
+
 <table id="customers" class="table table-bordered table-hover">
     <thead>
         <tr>
@@ -20,9 +21,9 @@
 {
     <script>
         $(document).ready(function () {
-           var table = $("#customers").DataTable({
+            var table = $("#customers").DataTable({
                 ajax: {
-                    url: "/api/customers",
+                    url: "/api/customers/",
                     dataSrc: ""
                 },
                 columns: [
@@ -58,5 +59,4 @@
                 });
             });
         });
-    </script>
-}
+    </script>}
