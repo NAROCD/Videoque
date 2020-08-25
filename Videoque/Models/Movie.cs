@@ -27,5 +27,6 @@ namespace Videoque.Models
         [Range(1, 20)]
         [Required(ErrorMessage = "The field Number in Stock must be between 1 and 20.")]
         public byte NumberInStock { get; set; }
+        public byte NumberAvailable { get; set; }
     }
 }
