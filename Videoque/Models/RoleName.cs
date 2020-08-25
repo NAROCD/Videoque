@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Videoque.Models
+﻿namespace Videoque.Models
 {
     public static class RoleName
     {
