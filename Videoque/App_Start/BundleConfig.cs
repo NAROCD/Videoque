@@ -12,8 +12,10 @@ namespace Videoque
                 "~/Scripts/bootstrap.js",
                 "~/Scripts/bootbox.js",
                 "~/Scripts/respond.js",
+                "~/Scripts/toastr.js",
                 "~/Scripts/datatables/jquery.datatables.js",
-                "~/Scripts/datatables/datatables.bootstrap.js"
+                "~/Scripts/datatables/datatables.bootstrap.js",
+                "~/Scripts/typeahead.bundle.js"
             ));
 
 
@@ -28,8 +30,10 @@ namespace Videoque
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/bootstrap.css",
-                "~/Content/site.css",
-                "~/Content/datatables/css/datatables.bootstrap.css"
+                "~/Content/datatables/css/datatables.bootstrap.css",
+                "~/Content/typeahead.css",
+                "~/content/toastr.css",
+                "~/Content/site.css"
             ));
         }
     }

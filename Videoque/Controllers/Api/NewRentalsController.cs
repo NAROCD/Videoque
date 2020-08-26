@@ -6,13 +6,13 @@ using Videoque.Dtos;
 
 namespace Videoque.Controllers.Api
 {
-public class NewRentalsController : ApiController
+    public class NewRentalsController : ApiController
     {
         private ApplicationDbContext _context;
 
         public NewRentalsController()
         {
-            _context = new ApplicationDbContext();    
+            _context = new ApplicationDbContext();
         }
 
         [HttpPost]
@@ -45,4 +45,5 @@ public class NewRentalsController : ApiController
 
             return Ok();
         }
-    }}
+    }
+}
