@@ -1,6 +1,10 @@
-﻿﻿.typeahead {
-     background-color: #fff;
+﻿﻿.twitter-typeahead {
+     width: 300px;
  }
+
+.typeahead {
+    background-color: #fff;
+}
 
 .typeahead:focus {
     border: 2px solid #0097cf;

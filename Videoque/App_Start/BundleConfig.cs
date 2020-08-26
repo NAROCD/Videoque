@@ -30,6 +30,7 @@ namespace Videoque
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/bootstrap.css",
+                "~/Content/bootstrap-theme-custom.css",
                 "~/Content/datatables/css/datatables.bootstrap.css",
                 "~/Content/typeahead.css",
                 "~/content/toastr.css",

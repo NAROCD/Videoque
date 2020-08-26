@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
@@ -54,8 +55,8 @@ namespace Videoque
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: "998425750630279",
-               appSecret: "5f9373d47c8c64b3efac3ed9a0553d2c");
+               appId: ConfigurationManager.AppSettings["FacebookAppId"],
+               appSecret: ConfigurationManager.AppSettings["FacebookAppSecret"]);
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
