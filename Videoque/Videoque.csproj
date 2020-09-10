@@ -245,6 +245,10 @@
     <Compile Include="Migrations\202008251735440_AddNumberAvailableToMovie.Designer.cs">
       <DependentUpon>202008251735440_AddNumberAvailableToMovie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009101127228_ExportDB.cs" />
+    <Compile Include="Migrations\202009101127228_ExportDB.Designer.cs">
+      <DependentUpon>202009101127228_ExportDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ExternalLoginListViewModel.cs" />
@@ -574,6 +578,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202008251735440_AddNumberAvailableToMovie.resx">
       <DependentUpon>202008251735440_AddNumberAvailableToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009101127228_ExportDB.resx">
+      <DependentUpon>202009101127228_ExportDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

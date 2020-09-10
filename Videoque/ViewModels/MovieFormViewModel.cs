@@ -27,6 +27,11 @@ namespace Videoque.ViewModels
         [Range(1, 20)]
         [Required(ErrorMessage = "The field Number in Stock must be between 1 and 20.")]
         public byte? NumberInStock { get; set; }
+        [Display(Name = "Number Available")]
+        [Range(1, 20)]
+        [Required(ErrorMessage = "The field Number Available must be between 1 and 20.")]
+
+        public byte? NumberAvailable { get; set; }
 
         public string Title
         {
